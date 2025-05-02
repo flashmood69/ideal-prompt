@@ -1,4 +1,4 @@
-# Ignore the output directory
+# Ignore the output folder
 output/
 
 # Add other files/folders you want Git to ignore below
