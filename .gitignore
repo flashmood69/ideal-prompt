@@ -1,0 +1,8 @@
+# Ignore the output directory
+output/
+
+# Add other files/folders you want Git to ignore below
+# For example:
+# __pycache__/
+# *.pyc
+# .env
