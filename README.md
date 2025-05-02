@@ -14,7 +14,7 @@ Ideal Prompt is a desktop application built with Python and Tkinter that helps u
 *   **Copy to Clipboard:** A button allows users to copy the generated prompt text directly to the clipboard.
 *   **Load Custom Templates:** Users can load different prompt templates (`.json` files) via the File menu.
 *   **Clear Fields:** An option to clear all input fields is available.
-*   **Multi-language Support:** Supports different languages through separate JSON template files (e.g., `example_eng.json`, `example_ita.json`).
+*   **Multi-language Support:** Supports different languages through separate JSON template files (e.g., `prompts/example-eng.json`, `prompts/example-ita.json`).
 
 ## Files
 
