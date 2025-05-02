@@ -1,0 +1,112 @@
+{
+    "sections": [
+        {
+            "name": "ROLE",
+            "enabled": true,
+            "content": "Act as a {type of expert} with experience in {specific area}.",
+            "placeholders": {
+                "type of expert": {
+                    "default": "digital marketing expert",
+                    "lines": 1
+                },
+                "specific area": {
+                    "default": "social media strategies for small businesses in the food industry",
+                    "lines": 1
+                }
+            }
+        },
+        {
+            "name": "CONTEXT",
+            "enabled": true,
+            "content": "{context}",
+            "placeholders": {
+                "context": {
+                    "default": "I'm launching a new artisanal bakery in a medium-sized city. We have a limited budget and want to maximize our online presence to attract local customers.",
+                    "lines": 2
+                }
+            }
+        },
+        {
+            "name": "MAIN TASK",
+            "enabled": true,
+            "content": "{task}",
+            "placeholders": {
+                "task": {
+                    "default": "Please develop a social media marketing strategy for the first 3 months of my bakery's operation.",
+                    "lines": 3
+                }
+            }
+        },
+        {
+            "name": "DETAILS",
+            "enabled": true,
+            "content": "Consider the following:\n 1. {detail 1}\n 2. {detail 2}\n 3. {detail 3}",
+            "placeholders": {
+                "detail 1": {
+                    "default": "Which social media platforms we should prioritize and why",
+                    "lines": 1
+                },
+                "detail 2": {
+                    "default": "Types of content to create and their frequency",
+                    "lines": 1
+                },
+                "detail 3": {
+                    "default": "Strategies to increase customer engagement and loyalty",
+                    "lines": 1
+                }
+            }
+        },
+        {
+            "name": "CONSTRAINTS",
+            "enabled": true,
+            "content": "We have the following contraints:\n 1. {constraint 1}\n 2. {constraint 2}\n 3. {constraint 3}",
+            "placeholders": {
+                "constraint 1": {
+                    "default": "The monthly budget for digital marketing is $500",
+                    "lines": 1
+                },
+                "constraint 2": {
+                    "default": "We have limited resources, so strategies must be manageable by one part-time person",
+                    "lines": 1
+                },
+                "constraint 3": {
+                    "default": "The strategy should primarily focus on increasing local visibility and attracting customers within a 10 km radius",
+                    "lines": 1
+                }
+            }
+        },
+        {
+            "name": "EXAMPLE",
+            "enabled": true,
+            "content": "{example}",
+            "placeholders": {
+                "example": {
+                    "default": "An example of the type of output I'm looking for might be: \"Week 1: Launch Facebook page with 3 posts, including a special opening offer. Week 2: Start posting on Instagram 5 times a week, focusing on high-quality photos of your products...\"",
+                    "lines": 3
+                }
+            }
+        },
+        {
+            "name": "CLARIFICATIONS",
+            "enabled": true,
+            "content": "{clarifications}",
+            "placeholders": {
+                "clarifications": {
+                    "default": "If you need any additional information about our products, target customers, or any other details to complete this task, please ask me.",
+                    "lines": 3
+                }
+            }
+        },
+        {
+            "name": "APPROACH",
+            "enabled": false,
+            "content": "{approach}",
+            "placeholders": {
+                "approach": {
+                    "default": "Please approach this problem step by step.",
+                    "lines": 1
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,128 @@
+{
+  "sections": [
+    {
+      "name": "Role Definition",
+      "enabled": true,
+      "content": "Act as a {role_name}. You are an expert in {expertise_area}.",
+      "placeholders": {
+        "role_name": {
+          "default": "Helpful Assistant",
+          "lines": 1
+        },
+        "expertise_area": {
+          "default": "General Knowledge",
+          "lines": 1
+        }
+      }
+    },
+    {
+      "name": "Task Specification",
+      "enabled": true,
+      "content": "Your primary task is to: {task_description}. The goal is to achieve {goal}.",
+      "placeholders": {
+        "task_description": {
+          "default": "Provide information or complete a request.",
+          "lines": 3
+        },
+        "goal": {
+          "default": "A clear and concise response.",
+          "lines": 1
+        }
+      }
+    },
+    {
+      "name": "Context",
+      "enabled": true,
+      "content": "Here is the necessary context:\n{context_details}",
+      "placeholders": {
+        "context_details": {
+          "default": "Provide relevant background information here...",
+          "lines": 5
+        }
+      }
+    },
+    {
+      "name": "Output Format",
+      "enabled": true,
+      "content": "Format your response as {output_format}. Ensure it includes {key_elements}.",
+      "placeholders": {
+        "output_format": {
+          "default": "a clear paragraph",
+          "lines": 1
+        },
+        "key_elements": {
+          "default": "all requested information",
+          "lines": 1
+        }
+      }
+    },
+    {
+      "name": "Constraints & Rules",
+      "enabled": true,
+      "content": "Follow these constraints:\n- {constraint_1}\n- {constraint_2}\nDo not {negative_constraint}.",
+      "placeholders": {
+        "constraint_1": {
+          "default": "Be concise.",
+          "lines": 1
+        },
+        "constraint_2": {
+          "default": "Maintain a neutral tone.",
+          "lines": 1
+        },
+        "negative_constraint": {
+          "default": "mention specific internal tools.",
+          "lines": 1
+        }
+      }
+    },
+    {
+      "name": "Examples (Few-Shot)",
+      "enabled": false,
+      "content": "Here are examples of desired input/output:\nInput: {example_input_1}\nOutput: {example_output_1}\n\nInput: {example_input_2}\nOutput: {example_output_2}",
+      "placeholders": {
+        "example_input_1": {
+          "default": "",
+          "lines": 2
+        },
+        "example_output_1": {
+          "default": "",
+          "lines": 3
+        },
+         "example_input_2": {
+          "default": "",
+          "lines": 2
+        },
+        "example_output_2": {
+          "default": "",
+          "lines": 3
+        }
+      }
+    },
+    {
+      "name": "Tone & Style",
+      "enabled": true,
+      "content": "Adopt a {tone} and {style} tone.",
+      "placeholders": {
+        "tone": {
+          "default": "professional",
+          "lines": 1
+        },
+        "style": {
+          "default": "informative",
+          "lines": 1
+        }
+      }
+    },
+    {
+      "name": "Target Audience",
+      "enabled": true,
+      "content": "The response is intended for a {audience_type} audience.",
+      "placeholders": {
+        "audience_type": {
+          "default": "general",
+          "lines": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+    "sections": [
+        {
+            "name": "RUOLO",
+            "enabled": true,
+            "content": "Agisci come un {tipo di esperto} specializzato in {area specifica}.",
+            "placeholders": {
+                "tipo di esperto": {
+                    "default": "esperto di marketing digitale",
+                    "lines": 1
+                },
+                "area specifica": {
+                    "default": "strategie per i social media per piccole imprese nel settore alimentare",
+                    "lines": 1
+                }
+            }
+        },
+        {
+            "name": "CONTESTO",
+            "enabled": true,
+            "content": "{contesto}",
+            "placeholders": {
+                "contesto": {
+                    "default": "Sto lanciando una nuova pasticceria artigianale in una città di medie dimensioni. Abbiamo un budget limitato e vogliamo massimizzare la nostra presenza online per attirare clienti locali.",
+                    "lines": 2
+                }
+            }
+        },
+        {
+            "name": "COMPITO PRINCIPALE",
+            "enabled": true,
+            "content": "{compito}",
+            "placeholders": {
+                "compito": {
+                    "default": "Per favore, sviluppa una strategia di marketing sui social media per i primi 3 mesi di attività della mia pasticceria.",
+                    "lines": 3
+                }
+            }
+        },
+        {
+            "name": "DETTAGLI",
+            "enabled": true,
+            "content": "Considera quanto segue:\n 1. {dettaglio 1}\n 2. {dettaglio 2}\n 3. {dettaglio 3}",
+            "placeholders": {
+                "dettaglio 1": {
+                    "default": "Quali piattaforme social dovremmo priorizzare e perché",
+                    "lines": 1
+                },
+                "dettaglio 2": {
+                    "default": "Tipi di contenuti da creare e loro frequenza",
+                    "lines": 1
+                },
+                "dettaglio 3": {
+                    "default": "Strategie per aumentare il coinvolgimento e la fidelizzazione dei clienti",
+                    "lines": 1
+                }
+            }
+        },
+        {
+            "name": "VINCOLI",
+            "enabled": true,
+            "content": "Abbiamo i seguenti vincoli:\n 1. {vincolo 1}\n 2. {vincolo 2}\n 3. {vincolo 3}",
+            "placeholders": {
+                "vincolo 1": {
+                    "default": "Il budget mensile per il marketing digitale è di 500€",
+                    "lines": 1
+                },
+                "vincolo 2": {
+                    "default": "Abbiamo risorse limitate, quindi le strategie devono essere gestibili da una sola persona part-time",
+                    "lines": 1
+                },
+                "vincolo 3": {
+                    "default": "La strategia dovrebbe focalizzarsi principalmente sull'aumento della visibilità locale e sull'attrazione di clienti nel raggio di 10 km",
+                    "lines": 1
+                }
+            }
+        },
+        {
+            "name": "ESEMPIO",
+            "enabled": true,
+            "content": "{esempio}",
+            "placeholders": {
+                "esempio": {
+                    "default": "Un esempio del tipo di risultato che sto cercando potrebbe essere: \"Settimana 1: Lancio della pagina Facebook con 3 post, includendo un'offerta speciale di apertura. Settimana 2: Inizia a pubblicare su Instagram 5 volte a settimana, concentrandoti su foto di alta qualità dei tuoi prodotti...\"",
+                    "lines": 3
+                }
+            }
+        },
+        {
+            "name": "CHIARIMENTI",
+            "enabled": true,
+            "content": "{chiarimenti}",
+            "placeholders": {
+                "chiarimenti": {
+                    "default": "Se hai bisogno di ulteriori informazioni sui nostri prodotti, il target di clientela o qualsiasi altro dettaglio per completare questo compito, per favore chiedimelo.",
+                    "lines": 3
+                }
+            }
+        },
+        {
+            "name": "APPROCCIO",
+            "enabled": false,
+            "content": "{approccio}",
+            "placeholders": {
+                "approccio": {
+                    "default": "Per favore, affronta questo problema passo dopo passo.",
+                    "lines": 1
+                }
+            }
+        }
+    ]
+}
